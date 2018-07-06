@@ -1,0 +1,36 @@
+###  Git ###
+*.orig
+
+### Idea ###
+.idea/
+*.iml
+**/out/
+
+### VS Code ###
+.vscode/
+
+### Gradle ###
+.gradle/
+.gradle*
+!gradle-wrapper.jar
+**/build/
+
+### Node ###
+*/node_modules/
+*/coverage/
+*/dist/
+
+### SonarQube ###
+.scannerwork/
+
+### Java ###
+*.class
+*.log
+*.jar
+
+.project
+.settings/
+.classpath
+/backend/service/bin/
+
+**/spinnaker.properties
